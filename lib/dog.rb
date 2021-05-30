@@ -1,7 +1,20 @@
 class Dog
-  def name=(dog_name)
-    puts "Amy"
+
+  def name=(name)
+    @name = name
   end
-  
-  def 
+
+  def name
+    @name
+  end
+
+  def breed=(breed)
+    @breed = breed
+  end
+
+  def breed
+    @breed
+  end
+
+
 end
